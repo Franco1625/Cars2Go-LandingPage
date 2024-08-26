@@ -8,11 +8,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="description" content="">
-    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
-    <meta name="author" content="Car Dealer Template">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Acropos - Car Dealer HTML5 Template</title>
+    <title>CAR2GO</title>
+	<link rel="icon" href="assets/images/logo.png" type="image/x-icon">
 
 	<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
 
@@ -45,62 +44,22 @@
         </div>
     </div>
 
-	<div id="search">
-	    <button type="button" class="close">×</button>
-	    <form>
-	        <input type="search" value="" placeholder="type keyword(s) here" />
-	        <button type="submit" class="primary-button">Search <i class="fa fa-search"></i></button>
-	    </form>
-	</div>
+
 	
 	<header class="site-header wow fadeIn" data-wow-duration="1s">
 		<div id="main-header" class="main-header">
 			<div class="container clearfix">
 				<div class="logo">
-					<a href="index.html"></a>
+					<a href="index.html">	<img src="assets/images/logo.png" ></a>
+
 				</div>
 				<div id='cssmenu'>
 					<ul>
-					   	<li><a href='index.html'>Homepage</a></li>
-					   	<li class='active'><a href='#'>Car Listing</a>
-					      	<ul>
-					         	<li><a href='#'>Sidebar</a>
-					            	<ul>
-					               		<li><a href='car_listing_sidebar.html'>Car Listing</a></li>
-					               		<li><a href='car_grid_sidebar.html'>Car Grid</a></li>
-					            	</ul>
-					        	</li>
-					         	<li><a href='#'>No Sidebar</a>
-					            	<ul>
-					               		<li><a href='car_listing_no_sidebar.html'>Car Listing</a></li>
-					               		<li><a href='car_grid_no_sidebar.html'>Car Grid</a></li>
-					            	</ul>
-					         	</li>
-					         	<li><a href="single_car.html">Single Car</a></li>
-					      	</ul>
-					   	</li>
-					   	<li class='active'><a href='#'>Blog</a>
-					      	<ul>
-					         	<li><a href='#'>Sidebar</a>
-					            	<ul>
-					               		<li><a href='blog_listing_sidebar.html'>Blog Classic</a></li>
-					               		<li><a href='blog_grid_sidebar.html'>Blog Grid</a></li>
-					            	</ul>
-					         	</li>
-					         	<li><a href='#'>No Sidebar</a>
-					            	<ul>
-					               		<li><a href='blog_listing_no_sidebar.html'>Blog Classic</a></li>
-					               		<li><a href='blog_grid_no_sidebar.html'>Blog Grid</a></li>
-					            	</ul>
-					         	</li>
-					         	<li><a href="single_post.html">Single Post</a></li>
-					      	</ul>		
-					   </li>
-					   <li><a href='about_us.html'>About Us</a></li>
+					   	<li><a href='index.html'>Home</a></li>
+						<li><a href='#services'>Services</a></li>
+						<li><a href='#about-us'>About Us</a></li>
 					   <li><a href='contact_us.html'>Contact Us</a></li>
-					   <li>
-					   		<a href="#search"><i class="fa fa-search"></i></a>
-					   </li>
+
 					</ul>
 				</div>
 			</div>
@@ -115,7 +74,7 @@
 	      <img src="assets/images/main_slide_01.jpg" alt="">
 	      <div class="info">
 	        <div >
-	        	<h5>ACROPOS HAS THE BEST CHOICE</h5>
+	        	<h5>CAR2GO HAS THE BEST CHOICE</h5>
 	          	<h3>Looking For Perffect <em>Car</em>?</h3>
           		<h6 class="secondary-button">
 	          		<a href="#">Find Your Car <i class="fa fa-car"></i></a>
@@ -131,8 +90,8 @@
 	      <img src="assets/images/main_slide_02.jpg" alt="">
 	      <div class="info">
 	        <div>
-	        	<h5>ACROPOS HAS THE BEST CHOICE</h5>
-	          	<h3>Looking For Perffect <em>Car</em>?</h3>
+	        	<h5>CARS2GO HAS THE BEST CHOICE</h5>
+	          	<h3>Looking For Perfect <em>Car</em>?</h3>
 	          	<h6 class="secondary-button">
 	          		<a href="#">Find Your Car <i class="fa fa-car"></i></a>
 	          	</h6>
@@ -147,7 +106,7 @@
 	      <img src="assets/images/main_slide_03.jpg" alt="">
 	      <div class="info">
 	        <div>
-	        	<h5>ACROPOS HAS THE BEST CHOICE</h5>
+	        	<h5>CARS2GO HAS THE BEST CHOICE</h5>
 	          	<h3>Looking For Perffect <em>Car</em>?</h3>
 	          	<h6 class="secondary-button">
 	          		<a href="#">Find Your Car <i class="fa fa-car"></i></a>
@@ -246,11 +205,16 @@
 	</section>
 
 
-	<section>
+	<section id="services">
+		<div class="title-card">
+		<div>
+		   <h3>What we <em>Offer</em>?</h3>
+        </div>
+		</div>
 		<div class="features-search-section">
 			<div class="container">
 				<div class="row d-flex align-items-center">
-					<div class="col-md-8">
+					<div class="col-md-6">
 						<div class="row">
 							<div class="col-md-6">
 								<div class="service-item wow fadeIn" data-wow-duration="0.75s">
@@ -266,7 +230,7 @@
 									<i class="fa fa-search"></i>
 									<div class="text-content">
 										<h6>Verificación de Calidad</h6>
-										<p>Nos aseguramos de que cada vehículo en la plataforma cumpla con altos estándares de calidad y seguridad.</p>
+										<p>Nos aseguramos de que cada vehículo en la plataforma cumpla con altos estándares de seguridad.</p>
 									</div>
 								</div>
 							</div>
@@ -290,181 +254,299 @@
 							</div>
 						</div>
 					</div>
-					<div class="col-md-2">
-						<img src="assets/images/service.png" alt="integrante" class="img-fluid">
+
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section id="subscriptions" class="subscriptions">
+		<div class="container">
+			<div class="title-card">
+				<div>
+					<h3>Choose Your <em>Subscription</em></h3>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 col-lg-4">
+					<div class="subscription-card">
+						<div class="card-header">
+							<h4>Basic Plan</h4>
+							<p class="price">$29/month</p>
+						</div>
+						<div class="card-body">
+							<ul class="benefits">
+								<li>Access to basic listings</li>
+								<li>Basic customer support</li>
+								<li>Monthly updates</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<a href="#" class="btn btn-primary">Subscribe Now</a>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-6 col-lg-4">
+					<div class="subscription-card">
+						<div class="card-header">
+							<h4>Premium Plan</h4>
+							<p class="price">$49/month</p>
+						</div>
+						<div class="card-body">
+							<ul class="benefits">
+								<li>Access to all listings</li>
+								<li>Priority customer support</li>
+								<li>Weekly updates</li>
+								<li>Discounts on featured listings</li>
+							</ul>
+						</div>
+						<div class="card-footer">
+							<a href="#" class="btn btn-primary">Subscribe Now</a>
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</section>
 
-<!--
-	<section>
-		<div class="recent-cars">
+
+
+	<section id="about-us">
+		<div class="title-card">
+			<div>
+				<h3>Sobre <em>Nosotros</em></h3>
+			</div>
+		</div>
+
+		<br><br><br><br>
+		<div class="more-about-us wow fadeIn" data-wow-delay="0.5s" data-wow-duration="1s">
 			<div class="container">
-				<div class="recent-car-content">
-					<div class="row">
-						<div class="col-md-12">
-							<div class="section-heading">
-								<div class="icon">
-									<i class="fa fa-car"></i>
-								</div>
-								<div class="text-content">
-									<h2>Recent Cars</h2>
-									<span>Check our recent posts</span>
-								</div>
+				<div class="row">
+					<div class="col-md-6">
+						<img src="assets/images/about_us.jpg" alt="">
+					</div>
+					<div class="col-md-6">
+						<div class="right-content">
+							<span>Conoce más sobre Car2Go</span>
+							<h4>¿Quiénes somos y qué hacemos?</h4>
+							<p>Car2Go es una plataforma dedicada a simplificar y asegurar el proceso de compra y venta de autos usados en Perú. Nos esforzamos por crear un entorno de confianza, donde cada transacción esté respaldada por la certificación de vehículos y un sistema de pagos seguro. Creemos en la transparencia y en brindar a nuestros usuarios la tranquilidad de saber que están haciendo una compra segura y confiable.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<br><br><br><br>
+		<div class="services-first about-services wow fadeIn" data-wow-delay="0.5s" data-wow-duration="1s">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+						<div class="service-item wow fadeIn" data-wow-duration="0.75s">
+							<i class="fa fa-bullseye"></i>
+							<div class="text-content">
+								<h6>Misión</h6>
+								<p>Nuestra misión es facilitar la compra y venta de autos de segunda, proporcionando las herramientas necesarias para que el proceso sea sencillo, seguro y confiable.</p>
 							</div>
 						</div>
 					</div>
-					<div class="row">
-						<div class="col-md-4 col-sm-6">
-							<div class="car-item wow fadeIn" data-wow-duration="0.75s">
-								<div class="thumb-content">
-									<div class="car-banner">
-										<a href="single_car.html">For Rent</a>
-									</div>
-									<div class="thumb-inner">
-										<a href="single_car.html"><img src="assets/images/car_item_1.jpg" alt=""></a>
-									</div>
-								</div>
-								<div class="down-content">
-									<a href="single_car.html"><h4>Perfect Sport Car</h4></a>
-									<span>$1.200</span>
-									<p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
-									<ul class="car-info">
-										<li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
-									</ul>
-								</div>
+					<div class="col-md-4">
+						<div class="service-item wow fadeIn" data-wow-duration="0.75s">
+							<i class="fa fa-eye"></i>
+							<div class="text-content">
+								<h6>Visión</h6>
+								<p>Aspiramos a convertirnos en la principal plataforma nacional para la compra y venta de autos de segunda mano, impulsando la confianza y la satisfacción de nuestros usuarios en cada transacción.</p>
 							</div>
 						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="car-item wow fadeIn" data-wow-duration="0.75s">
-								<div class="thumb-content">
-									<div class="car-banner">
-										<a href="single_car.html">For Sale</a>
-									</div>
-									<div class="thumb-inner">
-										<a href="single_car.html"><img src="assets/images/car_item_2.jpg" alt=""></a>
-									</div>
-								</div>
-								<div class="down-content">
-									<a href="single_car.html"><h4>Perfect Sport Car</h4></a>
-									<span>$49.950</span>
-									<p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
-									<ul class="car-info">
-										<li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="car-item wow fadeIn" data-wow-duration="0.75s">
-								<div class="thumb-content">
-									<div class="car-banner">
-										<a href="single_car.html">For Rent</a>
-									</div>
-									<div class="thumb-inner">
-										<a href="single_car.html"><img src="assets/images/car_item_3.jpg" alt=""></a>
-									</div>
-								</div>
-								<div class="down-content">
-									<a href="single_car.html"><h4>Perfect Sport Car</h4></a>
-									<span>$1.500</span>
-									<p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
-									<ul class="car-info">
-										<li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="car-item wow fadeIn" data-wow-duration="0.75s">
-								<div class="thumb-content">
-									<div class="car-banner">
-										<a href="single_car.html">For Rent</a>
-									</div>
-									<div class="thumb-inner">
-										<a href="single_car.html"><img src="assets/images/car_item_4.jpg" alt=""></a>
-									</div>
-								</div>
-								<div class="down-content">
-									<a href="single_car.html"><h4>Perfect Sport Car</h4></a>
-									<span>$1.550</span>
-									<p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
-									<ul class="car-info">
-										<li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="car-item wow fadeIn" data-wow-duration="0.75s">
-								<div class="thumb-content">
-									<div class="car-banner">
-										<a href="single_car.html">For Sale</a>
-									</div>
-									<div class="thumb-inner">
-										<a href="single_car.html"><img src="assets/images/car_item_5.jpg" alt=""></a>
-									</div>
-								</div>
-								<div class="down-content">
-									<a href="single_car.html"><h4>Perfect Sport Car</h4></a>
-									<span>$30.000</span>
-									<p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
-									<ul class="car-info">
-										<li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
-									</ul>
-								</div>
-							</div>
-						</div>
-						<div class="col-md-4 col-sm-6">
-							<div class="car-item wow fadeIn" data-wow-duration="0.75s">
-								<div class="thumb-content">
-									<div class="car-banner">
-										<a href="single_car.html">For Rent</a>
-									</div>
-									<div class="thumb-inner">
-										<a href="single_car.html"><img src="assets/images/car_item_6.jpg" alt=""></a>
-									</div>
-								</div>
-								<div class="down-content">
-									<a href="single_car.html"><h4>Perfect Sport Car</h4></a>
-									<span>$1.500</span>
-									<p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
-									<ul class="car-info">
-										<li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
-										<li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
-									</ul>
-								</div>
+					</div>
+					<div class="col-md-4">
+						<div class="service-item wow fadeIn" data-wow-duration="0.75s">
+							<i class="fa fa-shield"></i>
+							<div class="text-content">
+								<h6>Compromiso con la Seguridad</h6>
+								<p>Nos comprometemos a mejorar la seguridad en el mercado de autos usados mediante verificaciones técnicas rigurosas y pagos seguros, garantizando la tranquilidad de nuestros usuarios.</p>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
-	</section>
--->
 
-	<section>
+
+	</section>
+
+	<!--
+        <section>
+            <div class="recent-cars">
+                <div class="container">
+                    <div class="recent-car-content">
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="section-heading">
+                                    <div class="icon">
+                                        <i class="fa fa-car"></i>
+                                    </div>
+                                    <div class="text-content">
+                                        <h2>Recent Cars</h2>
+                                        <span>Check our recent posts</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 col-sm-6">
+                                <div class="car-item wow fadeIn" data-wow-duration="0.75s">
+                                    <div class="thumb-content">
+                                        <div class="car-banner">
+                                            <a href="single_car.html">For Rent</a>
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <a href="single_car.html"><img src="assets/images/car_item_1.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="down-content">
+                                        <a href="single_car.html"><h4>Perfect Sport Car</h4></a>
+                                        <span>$1.200</span>
+                                        <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                        <ul class="car-info">
+                                            <li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="car-item wow fadeIn" data-wow-duration="0.75s">
+                                    <div class="thumb-content">
+                                        <div class="car-banner">
+                                            <a href="single_car.html">For Sale</a>
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <a href="single_car.html"><img src="assets/images/car_item_2.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="down-content">
+                                        <a href="single_car.html"><h4>Perfect Sport Car</h4></a>
+                                        <span>$49.950</span>
+                                        <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                        <ul class="car-info">
+                                            <li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="car-item wow fadeIn" data-wow-duration="0.75s">
+                                    <div class="thumb-content">
+                                        <div class="car-banner">
+                                            <a href="single_car.html">For Rent</a>
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <a href="single_car.html"><img src="assets/images/car_item_3.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="down-content">
+                                        <a href="single_car.html"><h4>Perfect Sport Car</h4></a>
+                                        <span>$1.500</span>
+                                        <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                        <ul class="car-info">
+                                            <li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="car-item wow fadeIn" data-wow-duration="0.75s">
+                                    <div class="thumb-content">
+                                        <div class="car-banner">
+                                            <a href="single_car.html">For Rent</a>
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <a href="single_car.html"><img src="assets/images/car_item_4.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="down-content">
+                                        <a href="single_car.html"><h4>Perfect Sport Car</h4></a>
+                                        <span>$1.550</span>
+                                        <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                        <ul class="car-info">
+                                            <li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="car-item wow fadeIn" data-wow-duration="0.75s">
+                                    <div class="thumb-content">
+                                        <div class="car-banner">
+                                            <a href="single_car.html">For Sale</a>
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <a href="single_car.html"><img src="assets/images/car_item_5.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="down-content">
+                                        <a href="single_car.html"><h4>Perfect Sport Car</h4></a>
+                                        <span>$30.000</span>
+                                        <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                        <ul class="car-info">
+                                            <li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-4 col-sm-6">
+                                <div class="car-item wow fadeIn" data-wow-duration="0.75s">
+                                    <div class="thumb-content">
+                                        <div class="car-banner">
+                                            <a href="single_car.html">For Rent</a>
+                                        </div>
+                                        <div class="thumb-inner">
+                                            <a href="single_car.html"><img src="assets/images/car_item_6.jpg" alt=""></a>
+                                        </div>
+                                    </div>
+                                    <div class="down-content">
+                                        <a href="single_car.html"><h4>Perfect Sport Car</h4></a>
+                                        <span>$1.500</span>
+                                        <p>Leggings edison bulb hexagon, hashtag coloring book ethical echo park austin fam succulents.</p>
+                                        <ul class="car-info">
+                                            <li><div class="item"><i class="flaticon flaticon-calendar"></i><p>2018</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-speed"></i><p>160p/h</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-road"></i><p>26.00km</p></div></li>
+                                            <li><div class="item"><i class="flaticon flaticon-fuel"></i><p>Petrol</p></div></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    -->
+
+	<section id="testimonials">
 		<div class="testimonials">
-			<div class="container">						 
+			<br><br>
+			<div class="container">
+				<div class="title-card">
+					<div>
+						<h3>Nuestros <em>Colaboladores</em></h3>
+					</div>
+				</div>
 				<div id="owl-testimonials" class="owl-carousel owl-theme">
 				 	<div class="item wow fadeIn" data-wow-duration="0.75s">
 				 		<ul class="star-rating">
@@ -543,9 +625,9 @@
 							<li><i class="fa fa-star"></i></li>
 						</ul>
 						<div class="line-dec"></div>
-						<p><em>"</em>Considero que soy una persona que es capaz de trabajar bajo presión, además de ser responsable y perseverante. Me entusiasma aprender nuevas tecnologías.<em>"</em></p>
+						<p><em>"</em> Soy una persona responsable y comunicativa. Me gusta hacer deporte. Soy proactivo en proponer soluciones y disfruto trabajando en equipo.<em>"</em></p>
 						<div class="author-rate">
-							<img src="assets/images/integrante-Harold.jpg" alt="integrante">
+							<img src="assets/images/integrante-Joaquin.png" alt="integrante">
 							<h4>Harol Mayta</h4>
 							<div class="line-dec2"></div>
 							<span>Ing. de Software</span>
