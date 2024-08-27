@@ -15,6 +15,19 @@
 
  */
 /* global window, document, define, jQuery, setInterval, clearInterval */
+
+
+
+document.getElementById('sendMessageButton').addEventListener('click', function() {
+    const name = document.querySelector('input[name="name"]').value;
+    const email = document.querySelector('input[name="email"]').value;
+    const subject = document.querySelector('input[name="subject"]').value;
+    const message = document.getElementById('message').value;
+    const whatsappNumber = '995511500'; // Replace with your WhatsApp number
+    const whatsappMessage = `Hola, soy ${name}, mi correo es ${email} y el motivo por el que me comunico es "${subject}".\n Motivo específico:${message}`;
+    const whatsappURL = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(whatsappMessage)}`;
+    window.open(whatsappURL, '_blank');
+});
 (function(factory) {
     'use strict';
     if (typeof define === 'function' && define.amd) {
